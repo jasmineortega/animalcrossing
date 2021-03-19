@@ -1,0 +1,63 @@
+// Track Turnip prices in ACNH (Fig Gorge, my island) and see if there is a pattern
+
+#include <iostream>
+#include <string>
+#include <fstream>
+#include <iomanip>
+using namespace std;
+
+   // structure for storing prices (month, date, year, AM price, PM price)
+struct Turnip {
+    string sundayPrice;
+    string weekday;
+    string month;
+    string day;
+    string year;
+    string AM;
+    string PM;
+
+};
+
+Turnip prices[1000];
+
+// prototypes
+
+void addPrice (Turnip prices[1000], int count);
+
+void orderData(Turnip prices[1000], int count);
+
+// function for
+int main(){
+
+    cout << "Welcome back to the Fig Gorge Turnip Tracker!" << endl;
+    cout << "What would you like to do?" << endl;
+    
+    // header formatting
+    // top of header
+    for (int i = 0; i < 134; i++) {
+        cout << "=";
+    }
+    cout << endl;
+    
+    // headers
+    cout << left
+    << "|| " << setw(10) << "Add a price"
+    << "|| " << setw(10) << "Weekly summary"
+    << "|| " << setw(15) << "Find a trend"
+    << " ||" << endl;
+    
+    // bottom of header
+    for (int i = 0; i < 134; i++) {
+           cout << "=";
+       }
+    cout << endl;
+    
+    // addPrice Function
+     // need to research databases note to self lmao
+    
+    // weeklySummary Function (pull only from current week)
+    
+    // orderData Function(search/pull all data)
+     // sort by
+    
+}
