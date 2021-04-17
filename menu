@@ -1,0 +1,38 @@
+ loaddata from google sheet
+def loadData():
+    
+# build out function to add daily bell price (AM/PM)
+def addData(gameTime,dailyPrice):
+
+# build out function to add purchased Turnip price (Sunday only)
+def sundayRate(purchasePrice)
+
+# build out function for viewing data
+def viewData():
+    
+uuser_input = "intiated"
+
+pprint("☆☆☆ Welcome to the ACNH Bell Database!☆☆☆")
+>>> while user_input != "exit":
+        print("Please choose a selection from the menu:\n")
+        print("1. Add data \n2. View data\n 3.Exit\n")
+        user_input = input("I would like to... ").lower()
+
+#       # get parameters (gameTime, dailyPrice) for add data function
+        if user_input == "add data":
+            user_input = input("Are you adding a daily price or a Sunday rate?").lower
+
+            if user_input == "daily price":
+                gameTime = input("Is it AM or PM on your island?").lower()
+                
+                # number? not string
+                dailyPrice = input("How much are the twims buying Turnips for?)
+                addData(gameTime,dailyPrice)
+            
+
+        elif viewData()
+
+        else print("I'm sorry, something went wrong. Would you like to add data, view data, or exit?")
+
+    if user_input == "exit":
+        print("Ready to wrap up? Until next time!")
